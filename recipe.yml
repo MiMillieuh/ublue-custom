@@ -48,7 +48,7 @@ rpm:
   repos:
     # Example (which also demonstrates version number expansion):
     # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%FEDORA_VERSION%/atim-starship-fedora-%FEDORA_VERSION%.repo
-     - https://raw.githubusercontent.com/MiMillieuh/NotRPM-Repo/main/notrpm.repo
+    # - https://raw.githubusercontent.com/MiMillieuh/NotRPM-Repo/main/notrpm.repo
 
   # These RPMs will be installed from your enabled repositories (Fedora's own
   # repos, extra "repos" you've added, etc). The installation is automatically
@@ -73,7 +73,7 @@ rpm:
     - gnome-themes-extra
     - gtk-murrine-engine
     - neofetch
-    - nvidia-exec
+    # - nvidia-exec
 
   # These RPMs will be removed from the system image. This step happens during
   # image build, BEFORE installing custom RPMs (from the "rpm.install" category).
