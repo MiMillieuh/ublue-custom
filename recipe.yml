@@ -75,6 +75,7 @@ rpm:
     - gtk-murrine-engine
     - neofetch
     - wine-devel
+    - wine-common
     # - nvidia-exec
     # - kernel-cachyos-bore
 
