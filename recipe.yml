@@ -50,6 +50,7 @@ rpm:
     # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%FEDORA_VERSION%/atim-starship-fedora-%FEDORA_VERSION%.repo
     # - https://raw.githubusercontent.com/MiMillieuh/NotRPM-Repo/main/notrpm.repo
     # - https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/repo/fedora-%FEDORA_VERSION%//bieszczaders-kernel-cachyos-fedora-%FEDORA_VERSION%.repo
+    - https://dl.winehq.org/wine-builds/fedora/%FEDORA_VERSION%/winehq.repo
   # These RPMs will be installed from your enabled repositories (Fedora's own
   # repos, extra "repos" you've added, etc). The installation is automatically
   # performed via rpm-ostree during the image build, and will be pre-installed
@@ -73,6 +74,7 @@ rpm:
     - gnome-themes-extra
     - gtk-murrine-engine
     - neofetch
+    - wine-devel
     # - nvidia-exec
     # - kernel-cachyos-bore
 
